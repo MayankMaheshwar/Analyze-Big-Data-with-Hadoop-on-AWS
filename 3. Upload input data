@@ -1,0 +1,8 @@
+To prepare the sample input data for EMR
+
+Download the zip file, food_establishment_data.zip.
+
+Unzip the content and save it locally as food_establishment_data.csv.
+
+Upload the CSV file to the S3 bucket that you created for this tutorial. For step-by-step instructions, see How do I upload files and folders to an S3 bucket? in the Amazon Simple Storage Service Console User Guide.
+
