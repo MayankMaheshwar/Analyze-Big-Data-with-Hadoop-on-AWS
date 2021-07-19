@@ -1,0 +1,12 @@
+Create an Amazon S3 bucket to store an example PySpark script, input data, and output data
+
+In the AWS Management Console, on the Services menu, choose S3.
+
+Choose Create bucket and then configure:
+
+Bucket name: 
+hadoopNUMBER
+Replace NUMBER with a random number
+Choose Create bucket
+You now have a bucket you can use to store your log files and output data.
+

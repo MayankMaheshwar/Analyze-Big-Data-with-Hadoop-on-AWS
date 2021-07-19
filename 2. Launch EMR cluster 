@@ -1,0 +1,31 @@
+Choose Create cluster
+
+Choose Go to advanced options.
+
+At the bottom of the screen, then choose Next
+
+On the Hardware Configuration page, configure:
+
+Network: Lab VPC
+In the Master and Core row, choose the  next to the instance type and change it to m4.large. If m4.large instance types are not available, you can instead use an m5.xlarge instance. No other instance types are allowed.
+Make sure that the Instant Count is 1 for both Master node and Core node.
+At the bottom of the page, choose Next This will configure the cluster to launch one master node and one slave ("core") node.
+On the General Options page, configure:
+Cluster name: 
+My cluster
+S3 folder:
+Choose the folder  icon
+Choose the Hadoop bucket that you created earlier
+Choose Select
+De-select  Termination protection.
+
+Choose Next
+
+On the Security Options page, configure:
+
+Permissions: Custom
+EMR role: EMR_DefaultRole
+EC2 instance profile: EMR_EC2_DefaultRole
+These roles will assign permissions to your cluster to access AWS services.
+
+At the bottom of the page, launch your EMR cluster by chooseing Create cluster

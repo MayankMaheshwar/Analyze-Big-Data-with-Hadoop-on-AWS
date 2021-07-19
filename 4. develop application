@@ -1,0 +1,12 @@
+In this step, you upload a sample PySpark script to Amazon S3. This is the most common way to prepare an application for Amazon EMR. EMR lets you specify the Amazon S3 location of the script when you submit work to your cluster. You also upload sample input data to Amazon S3 for the PySpark script to process.
+
+We've provided the following PySpark script for you to use. The script processes food establishment inspection data and outputs a file listing the top ten establishments with the most "Red" type violations to your S3 bucket.
+
+
+To prepare the example PySpark script for EMR
+
+Copy the example code below into a new file in your editor of choice.
+
+Save the file as health_violations.py.
+
+Upload health_violations.py to Amazon S3 into the bucket you designated for this tutorial. For information about how to upload objects to Amazon S3, see Uploading an object to a bucket in the Amazon Simple Storage Service Getting Started Guide.
